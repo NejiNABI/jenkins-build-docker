@@ -1,3 +1,4 @@
-FROM Neji:latest
-RUN sed -i 's/Neji/NABI/g' /usr/share/neji/html/index/html
+FROM nginx:latest
+RUN sed -i 's/nginx/xavki/g' /usr/share/nginx/html/index.html
 EXPOSE 80
+
